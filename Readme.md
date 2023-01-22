@@ -1,6 +1,6 @@
 # Saxon HE 12 Spring boot integration
 
-Applies stylesheet to xml and outputs html
+Applies xsl stylesheet to xml and outputs html
 
 Run ` ./mvnw spring-boot:run` to run the application
 
@@ -19,4 +19,5 @@ post to http://localhost:8080/transform
 ```
 
 For now it just applies the book.xsl stylesheet to the books.xml and returns books.html as a string
-xml and xsl are found in the resourses/examples folder
+<br />
+XML and XSL are found in the resourses/examples folder
